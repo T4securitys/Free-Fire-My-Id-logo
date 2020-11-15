@@ -1,0 +1,24 @@
+#! /bin/bash
+
+function banner(){
+figlet -f big Termux Banner| lolcat
+#echo -e "\n"
+echo "                 ______________________________________         "|lolcat
+echo "        ________|                                      |_______ "|lolcat
+echo "        \       |  彡LION彡PARDOX.                      |      / "|lolcat
+echo "         \      |                                      |     /  "|lolcat
+echo "         /      |______________________________________|     \  "|lolcat
+echo "        /__________)                                (_________\ "|lolcat
+echo ""
+echo -e "\e[1;36m                        Coded By -> Akash Giri\n"
+echo -e "\e[1;35m                             Version - 2.0"
+}
+
+function createBanner(){
+echo -e "\n\n\n\e[33mEnter The Text For LOGO : \e[32m\c"
+read name
+
+echo -e "\n\n\e[1m\e[33m\nWhat is Your Nick-Name : \e[32m\c"
+read nickname
+
+echo -e "\n\n\n\e[33mChoose the cowsay file -
